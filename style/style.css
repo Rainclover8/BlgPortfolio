@@ -1,0 +1,73 @@
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Exo 2', sans-serif;
+*/
+
+.navbar{
+  background-color: #0D112D;
+}
+
+.main{ 
+ min-height: 100vh;  
+ background-image: url(/image/blg-foto.png); 
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.name{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    
+}
+
+.surname{
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: azure;
+}
+.info-about{
+    font-size: 20px;
+    font-weight: bolder;
+    color: azure;
+}
+.icons{
+    font-size: 30px;
+    cursor: pointer;
+}
+.pre-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Bu kısım değişebilir / kaldırılabilir */
+    align-items: center;
+    /* Bu kısım değişebilir / kaldırılabilir */
+    min-height: 100vh;   
+}
+
+.about{
+    height: 100vh;
+    background-color: #12245C;
+}
+
+.about-aboutheader{
+    text-decoration: underline;
+    color: #2C609C;
+    font-size: 47px;
+}
+.mail-info{
+    color: cadetblue;
+}
+.aboutMe{
+    /* text-align: center; */
+    width: 400px;
+    color: #2C609C;
+}
+.bilgePhoto{
+    
+   max-width: 100vw;
+    width: 400px;
+    height:  100%;
+}
